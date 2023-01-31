@@ -19,6 +19,8 @@ Para Instalação do projeto, siga os seguintes passos.
 
 
 ```bash
+  cd cliente
+
   mvn clean install
 
   docker build -t rompi-client-api-docker.jar .
